@@ -5,9 +5,9 @@ namespace WebApplication1;
 
 
 
-public class Yoga(){
+public class Hola(){
 
     public static void main(string[] args){
-    System.Console.WriteLine("night");
+    System.Console.WriteLine("hello");
 }
 }
