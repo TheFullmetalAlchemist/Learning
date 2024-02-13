@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vj366\\HelloWorld\\Learning\\WebApplication1.csproj": {}
+    "c:\\Users\\vj366\\HelloWorld\\Learning\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vj366\\HelloWorld\\Learning\\WebApplication1.csproj": {
+    "c:\\Users\\vj366\\HelloWorld\\Learning\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vj366\\HelloWorld\\Learning\\WebApplication1.csproj",
+        "projectUniqueName": "c:\\Users\\vj366\\HelloWorld\\Learning\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\vj366\\HelloWorld\\Learning\\WebApplication1.csproj",
+        "projectPath": "c:\\Users\\vj366\\HelloWorld\\Learning\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\vj366\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vj366\\HelloWorld\\Learning\\obj\\",
+        "outputPath": "c:\\Users\\vj366\\HelloWorld\\Learning\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vj366\\AppData\\Roaming\\NuGet\\NuGet.Config"
