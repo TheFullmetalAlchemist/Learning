@@ -10,7 +10,7 @@ public class Program()
 {
   public static void Main(string[] args){
     var result= new Writename();
-    result.Warhammer();
+    result.Connie();
     }    
   }
 

@@ -11,17 +11,14 @@ public enum Season
     autumn
 
 }
-
-public class Sample()
-{
-    public void Reiner(){
+public class Writename(){
+    
+public void Reiner(){
         for(int i=0;i<10;i++){
             if(i%2==0)
                 System.Console.WriteLine(i);
         }
     } 
-}
-public class Writename(){
 public void Eren(){
      var name="eren yeager";
     // for(int i=0;i<name.Length;i++){
@@ -75,5 +72,13 @@ public void Warhammer(){
     Array.Reverse(numbers);
     foreach(var n in numbers)
     System.Console.WriteLine("Effect of reverse:"+n);
+}
+public void Connie(){
+    var numbers= new List<int>{1,2,3,4};
+    numbers.Add(1);
+    numbers.AddRange(new int[3]{5,6,7});
+    foreach(var n in numbers){
+        System.Console.WriteLine(n);
+    }
 }
 }
