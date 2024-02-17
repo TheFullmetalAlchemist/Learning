@@ -9,8 +9,9 @@ namespace WebApplication1;
 public class Program()
 {
   public static void Main(string[] args){
-    var result= new Writename();
-    result.Connie();
+    
+    var output = Stringutility.Summarizetext("This is going to be a really long sentence");
+    System.Console.WriteLine(output);
     }    
   }
 

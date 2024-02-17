@@ -1,4 +1,5 @@
-﻿using System.Reflection.PortableExecutable;
+﻿using System.ComponentModel;
+using System.Reflection.PortableExecutable;
 using System.Runtime.InteropServices.Marshalling;
 using Microsoft.AspNetCore.Components.Web;
 
@@ -96,5 +97,40 @@ public void Connie(){
 
         numbers.Clear();
     System.Console.WriteLine(numbers.Count);
+    }
+    public void Levi(){
+        var datetime = new DateTime(2024,02,15);
+        var result = DateTime.Now;
+        var today = DateTime.Today;
+        var yesterday = result.AddDays(-1);
+        System.Console.WriteLine(yesterday);
+    }
+    public void Annie(){
+        var fullname = "Mosh hamadani";
+        var trim = fullname.Trim().ToUpper();
+        System.Console.WriteLine("trim is : '{0}' ",trim);
+
+        var index = fullname.IndexOf(' ');
+        var firstname = fullname.Substring(0,index);
+        System.Console.WriteLine(firstname);
+        var lastname = fullname.Substring(index + 1);
+        System.Console.WriteLine(lastname);
+
+        var names = fullname.Split(' ');
+        System.Console.WriteLine(names[0]);
+        System.Console.WriteLine(names[1]);
+
+        System.Console.WriteLine(fullname.Replace("Mosh","Moshfegh"));
+
+        if(string.IsNullOrWhiteSpace(" ")){
+            System.Console.WriteLine("Invalid");
+        }
+        var str = "25";
+        var age = Convert.ToByte(str);
+        System.Console.WriteLine(age);
+
+        var price = 29.95f;
+        System.Console.WriteLine(price.ToString("C1"));
+
     }
 }
