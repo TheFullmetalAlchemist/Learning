@@ -131,6 +131,5 @@ public void Connie(){
 
         var price = 29.95f;
         System.Console.WriteLine(price.ToString("C1"));
-
     }
 }
