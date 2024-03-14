@@ -6,11 +6,11 @@ using Microsoft.VisualBasic;
 namespace WebApplication1;
 
 
-public class Program()
+public class Program
 {
   public static void Main(string[] args){
-    
-
+    var result = new Writename();
+       result.Reiner();
     }    
 }
 

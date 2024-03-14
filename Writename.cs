@@ -12,7 +12,7 @@ public enum Season
     autumn
 
 }
-public class Writename(){
+public class Writename{
     
 public void Reiner(){
         for(int i=0;i<10;i++){
